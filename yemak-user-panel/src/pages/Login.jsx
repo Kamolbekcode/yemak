@@ -2,6 +2,7 @@ import '../assets/login.css'
 import {Link, useNavigate} from "react-router-dom";
 import {useState} from "react";
 import {LoginHandler} from "../config/service/AuthService";
+import '../assets/login.css'
 
 export const Login = () => {
     const [username, setUsername] = useState('')
@@ -68,7 +69,7 @@ export const Login = () => {
                 <div
                     className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
                     <div className="text-white mb-3 mb-md-0">
-                        WEB-7 © 2024. Birinchi bizda keyin boshqalarda (Dux bor pul bor).
+                        Yemak clone by Kamol and Temur ©.
                     </div>
 
                     <div>
