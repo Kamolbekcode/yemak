@@ -58,15 +58,14 @@
         flex-direction: column;
     }
     .head-search{
+        padding: 4rem;
         width: 100%;
         height: 50%;
-        background-color: black;
     }
 
     .head-location{
         width: 100%;
         height: 50%;
-        background-color: yellow;
     }
 
 }
@@ -75,14 +74,19 @@
     .head{
         height: 36vh;
     }
-    .head-location {
+
+    .head-location{
         width: 100%;
         height: 50%;
-        display: inline-flex;
     }
-    .head-search {
+
+    .head-search{
+        padding: 4rem;
         width: 100%;
         height: 50%;
-        display: inline;
+        align-items:center;
     }
+
+
+
 }
