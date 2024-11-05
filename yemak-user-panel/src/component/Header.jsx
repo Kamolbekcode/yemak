@@ -3,7 +3,7 @@ export const Header = () => {
   return(
       <div className={'head'}>
           <div className={"head-search"}>
-              <h1 className={"head-logo"}>Restaurant</h1>
+              <h1 className={"head-logo"}>Yemak</h1>
               <input type={"search"} placeholder={"Qidirish..."} className={"head-search-input"}/>
           </div>
           <div className={"head-location"}>
