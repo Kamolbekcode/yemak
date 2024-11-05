@@ -1,9 +1,7 @@
-import '../assets/login.css'
 import {Link, useNavigate} from "react-router-dom";
 import {useState} from "react";
-import {LoginHandler} from "../config/service/AuthService";
+import {LoginHandler} from "../../../yemak-user-panel/src/config/service/AuthService.js";
 import '../assets/login.css'
-
 export const Login = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
