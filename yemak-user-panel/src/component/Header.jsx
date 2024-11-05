@@ -1,7 +1,7 @@
 import '../assets/header.css'
 export const Header = () => {
   return(
-      <div className={'hear'}>
+      <div className={'head'}>
           <div className={"head-search"}>
               <h1 className={"head-logo"}>Restaurant</h1>
               <input type={"search"} placeholder={"Qidirish..."} className={"head-search-input"}/>

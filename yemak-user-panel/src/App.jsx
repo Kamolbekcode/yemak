@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import '../src'
+import {Header} from "./component/Header.jsx";
 function App() {
   return (
       <BrowserRouter>
