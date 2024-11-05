@@ -1,15 +1,13 @@
 import 'primeicons/primeicons.css'
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Login} from "./pages/Login.jsx";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-          <Routes>
-              <Route path={"/"} element={<Login/>}/>
-          </Routes>
-      </BrowserRouter>
+      admin panel
+        <br/>
+        {/*<i className="pi pi-check"></i>*/}
+        {/*<span className="pi pi-tiktok"></span><br/>*/}
+        {/*<i className="pi pi-spin pi-cog" style={{ fontSize: '1.5rem' }}></i>*/}
     </>
   )
 }
