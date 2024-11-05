@@ -1,4 +1,4 @@
-import '../src/assets/header.css'
+import '../assets/header.css'
 export const Header = () => {
   return(
       <div className={'hear'}>
