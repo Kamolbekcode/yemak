@@ -2,6 +2,7 @@ import {Link, useNavigate} from "react-router-dom";
 import {useState} from "react";
 import {LoginHandler} from "../../../yemak-user-panel/src/config/service/AuthService.js";
 import '../assets/login.css'
+
 export const Login = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -20,7 +21,8 @@ export const Login = () => {
                 <div className="container-fluid h-custom">
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-md-9 col-lg-6 col-xl-5">
-                            <img id={"rasm"} src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                            <img id={"rasm"}
+                                 src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
                                  className="img-fluid" alt="Sample image"/>
                         </div>
                         <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
@@ -66,7 +68,7 @@ export const Login = () => {
                 </div>
                 <div
                     className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-                    <div className="text-white mb-3 mb-md-0">
+                    <div className="text-white mb-3 mb-md-0 yozuv">
                         Yemak clone by Kamol and Temur ©.
                     </div>
 

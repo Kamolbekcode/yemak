@@ -1,7 +1,7 @@
 import {toast} from "react-toastify";
-import {BASE_CONFIG} from "../BaseConfig";
-import {APP_API} from "../AppApi";
-import {IS_SUCCESS} from "../Utils";
+import {BASE_CONFIG} from "../BaseConfig.js";
+import {APP_API} from "../AppApi.js";
+import {IS_SUCCESS} from "../Utils.js";
 
 export const LoginHandler = async (data, navigate) => {
     if (data.username.trim().length === 0) {

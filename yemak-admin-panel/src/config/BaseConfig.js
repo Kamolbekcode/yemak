@@ -1,5 +1,5 @@
 import axios from "axios";
-import {BASE_URL} from "./Utils";
+import {BASE_URL} from "./Utils.js";
 
 export const BASE_CONFIG = {
     doGet: (url) => axios.get(
