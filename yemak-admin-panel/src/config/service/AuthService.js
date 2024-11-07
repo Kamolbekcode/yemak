@@ -4,7 +4,7 @@ import {APP_API} from "../AppApi.js";
 import {IS_SUCCESS} from "../Utils.js";
 
 export const LoginHandler = async (data, navigate) => {
-    if (data.username.trim().length === 0) {
+    if (data.login.trim().length === 0) {
         return toast.error("Username bo'lishi shart")
     }
     if (data.password.length === 0) {
