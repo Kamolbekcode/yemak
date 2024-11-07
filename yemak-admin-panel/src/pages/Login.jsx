@@ -1,6 +1,6 @@
 import {Link, useNavigate} from "react-router-dom";
 import {useState} from "react";
-import {LoginHandler} from "../../../yemak-user-panel/src/config/service/AuthService.js";
+import {LoginHandler} from "../config/service/AuthService.js";
 import '../assets/login.css'
 
 export const Login = () => {

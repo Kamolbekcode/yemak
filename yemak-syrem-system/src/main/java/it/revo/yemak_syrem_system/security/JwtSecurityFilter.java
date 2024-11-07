@@ -7,13 +7,15 @@ import com.auth0.jwt.exceptions.JWTVerificationException;
 import it.revo.yemak_syrem_system.entity.Users;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.web.filter.OncePerRequestFilter;
+
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
-@Component
-public class JwtTokenProvider {
 
+@Component
+public abstract class JwtSecurityFilter extends OncePerRequestFilter {
     @Value("${app.jwtSecretKey}")
     private String JWT_SECRET;
 

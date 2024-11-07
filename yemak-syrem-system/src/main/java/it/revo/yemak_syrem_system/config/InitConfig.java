@@ -1,4 +1,4 @@
-package it.revo.yemak_syrem_system.component;
+package it.revo.yemak_syrem_system.config;
 
 import org.springframework.core.io.ClassPathResource;
 

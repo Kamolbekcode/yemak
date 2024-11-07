@@ -27,6 +27,9 @@ public class Users extends AbsEntity implements UserDetails {
     private String username;
 
     @Column(nullable = false)
+    private String phoneNumber;
+
+    @Column(nullable = false)
     private String password;
 
     @ManyToMany(fetch = FetchType.LAZY)
