@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 
 export const MultiCarousel = ()=>{
-    return(
+    return (
         <Carousel
             additionalTransfrom={0}
             arrows
