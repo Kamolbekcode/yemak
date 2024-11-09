@@ -1,8 +1,8 @@
-import {Header} from "../../../yemak-user-panel/component/Header.jsx";
+import {Header} from "../component/Header.jsx";
 import {MultiCarousel} from "../component/MultiCarousel.jsx";
 
-export const Menu = () =>{
-    return(
+export const Menu = () => {
+    return (
         <div>
             <Header/>
             <MultiCarousel/>
