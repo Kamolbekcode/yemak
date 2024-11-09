@@ -10,7 +10,7 @@ export const Login = () => {
 
     const loginHandler = async () => {
         const data = {
-            login:username, password
+            login: username, password
         }
         await LoginHandler(data, navigate)
     }

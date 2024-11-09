@@ -1,13 +1,15 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Header} from "./component/Header.jsx";
+import 'react-multi-carousel/lib/styles.css'
+import {Menu} from "./pages/Menu.jsx";
+
 function App() {
-  return (
-      <BrowserRouter>
-          <Routes>
-              <Route path={"/"} element={<Header/>}/>
-          </Routes>
-      </BrowserRouter>
-  )
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path={"/"} element={<Menu/>}/>
+            </Routes>
+        </BrowserRouter>
+    )
 }
 
 export default App
