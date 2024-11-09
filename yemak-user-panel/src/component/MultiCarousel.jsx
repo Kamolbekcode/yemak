@@ -54,10 +54,10 @@ export const MultiCarousel = () => {
             slidesToSlide={1}
             swipeable
         >
-            <div>salom</div>
-            <div>salom</div>
-            <div>salom</div>
-            <div>salom</div>
+            <div className={"card"}>gaday</div>
+            <div className={"card"}>tvar</div>
+            <div className={"card"}>salom</div>
+            <div className={"card"}>qozi</div>
         </Carousel>
     )
 }
