@@ -46,9 +46,9 @@ public class AuthConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers(HttpMethod.POST, "/api/auth/*").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/api/auth/get-me/**").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/api/books").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/api/v1/auth/*", "/api/v1/category/*", "/api/v1/attachment/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/v1/auth/get-me/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/v1/books").hasRole("ADMIN")
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtSecurityFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
